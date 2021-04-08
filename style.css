@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+:root{
+   --primary-color:#10B981;
+   --grey-color:#D1D5DB;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+   margin-right: 0;
+}
+/* bg image 
+   background: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5) ) ,
+    url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+*/
+
+
+hr{
+   margin: 2rem 0;
+}
+.container{
+   padding: 0rem 1rem;
+}
+.centeredContainer{
+   margin: auto;
+   max-width: 600px;
+}
+.link{
+   text-decoration: none;
+   padding: 0.5rem 1rem ;
+}
+.primlink{
+   background-color: var(--primary-color);
+   border-radius: 0.5rem;
+   color: white;
+}
+.seclink{
+   border-radius: 0.5rem;
+   border: 1px solid var(--primary-color);
+   color: var(--primary-color);
+}
+.list-noBullet{
+   list-style: none;
+}
+.list-item-inline{
+   display: inline;
+   padding-right: 1.5rem;
+}
+.navigation .navBrand{
+   font-weight: bold;
+   font-size: 1.2rem;
+}
+.navigation{
+   background-color: var(--primary-color);
+   color: white;
+   padding: 1rem;
+   border-bottom-left-radius: 1rem;
+}
+.navigation .link{
+   color: white;
+}
+.navigation .nav-pills{
+   text-align:right
+}
+.hero{
+   padding: 2rem;
+   text-align: center;
+}
+.hero-img{
+   max-width: 350px;
+}
+.hero-heading{
+padding-top: 1rem;
+}
+.section{
+   padding: 1.5rem;
+   text-align: center;
+}
+.ow{
+   background-color: var(--grey-color);
+   margin-left: 30%;
+   margin-right: 30%;
+}
+footer{
+   background-color: var(--primary-color);
+   padding: 2rem 0rem;
+   text-align: center;
+   color: white;
+   padding-inline-start: 0rem;
+}
+footer .link{
+   color: white;
+}
+.footer-header{
+
+}
+
